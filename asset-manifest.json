@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Webpage-with-fetch---react/static/css/main.56ea8a0b.css",
+    "main.js": "/Webpage-with-fetch---react/static/js/main.42f825e0.js",
+    "static/media/R.png": "/Webpage-with-fetch---react/static/media/R.8e9482bf0f48f3eaf346.png",
+    "index.html": "/Webpage-with-fetch---react/index.html",
+    "main.56ea8a0b.css.map": "/Webpage-with-fetch---react/static/css/main.56ea8a0b.css.map",
+    "main.42f825e0.js.map": "/Webpage-with-fetch---react/static/js/main.42f825e0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.56ea8a0b.css",
+    "static/js/main.42f825e0.js"
+  ]
+}
