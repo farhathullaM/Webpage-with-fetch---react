@@ -1,0 +1,76 @@
+.filter{
+    width: 24%;
+    height: 250vh;
+}
+.filterbox{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin-left: 83px;
+    margin-right: 3px;
+    height: 246vh;
+    font-size: 12px;
+}
+.sports-fashion{
+    margin-top: 26px;
+    display: flex;
+    text-align: start;
+    padding-left: 17px;
+    border-bottom: 4px solid #f7f7f7;
+}
+.men-sp-fa{
+    padding-left: 10px;
+}
+.sp{
+    font-size: 14px;
+    color: #333;
+    padding-bottom: 10px;
+}
+.msp{
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.mspa{
+    padding-left: 30px;
+}
+.sports-items{
+    padding-left: 50px;
+}
+.sports-items p {
+    padding-top:10px;
+}
+.different{
+    margin-left: 10px;
+    color: #999999;
+    margin-top: 32px;
+}
+.one{
+    padding-bottom: 10px;
+}
+.three{
+    padding-bottom: 10px;
+}
+
+.price{
+    display: none;
+    flex-direction: column;
+} 
+.price-head{
+    color: #5a5a59;
+    font-size: 14px;
+}
+.customer-rating{
+    display: none;
+}
+.brand{
+    display: none;
+}
+.discount-per{
+    display: none;
+}
+.color{
+    display: none;
+}
+.final-div{
+    display: none;
+}

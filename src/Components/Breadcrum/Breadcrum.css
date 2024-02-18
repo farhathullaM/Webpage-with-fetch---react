@@ -1,0 +1,54 @@
+.breadcrum{
+    display: flex;
+    flex-direction: column;
+    padding-left: 88px;
+    background: #f7f7f7;
+    height: 80px;
+    position: static;
+    margin-top: 97px;
+}
+.bred{
+    display: flex;
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 9px;
+}
+.bred p span{
+    color: #787878;
+}
+.bred p:hover{
+    cursor: pointer;
+}
+.trending{
+    display: flex;
+}
+.trending span{
+    color: #787878;
+    font-size: 19px;
+    padding-right: 5px;
+    padding-top: 15px;
+}
+.trending p{
+    color: #787878;
+    font-size: 13px;
+    font-weight: 300;
+    padding-right: 4px;
+    padding-top: 15px;
+}
+.btns{
+    align-items: center;
+    justify-content: center;
+    padding-top: 9px;
+}
+.btns button{
+    margin-left: 10px;
+    width: fit-content;
+    padding: 5px 19px 5px 19px;
+    background: white;
+    border:  1px solid #e7e7e7;
+    color: #333333;
+    font-size: 12.2px;
+}
+.btns button:hover{
+    cursor: pointer;
+}
