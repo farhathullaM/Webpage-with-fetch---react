@@ -60,7 +60,7 @@
     font-size: 14px;
 }
 .customer-rating{
-    display: none;
+    display: flex;
 }
 .brand{
     display: none;
