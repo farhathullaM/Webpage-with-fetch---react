@@ -69,8 +69,8 @@
     display: none;
 }
 .color{
-    display: none;
+    display: flex;
 }
 .final-div{
-    display: none;
+    display: flex;
 }
