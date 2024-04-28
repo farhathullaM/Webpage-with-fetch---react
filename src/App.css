@@ -45,3 +45,12 @@
     transform: rotate(360deg);
   }
 }
+.translator{
+  position: relative;
+  width: 500px;
+  height: 100px;
+  color: black;
+  background: red;
+  z-index: 1000;
+
+}
