@@ -177,3 +177,13 @@
 .order:hover{
     cursor: auto;
 }
+.search-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 10px;
+}
+.search-box input{
+    outline: none;
+    border: none;
+}
