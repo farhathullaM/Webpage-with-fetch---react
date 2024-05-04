@@ -6,15 +6,32 @@ import Filter from "../Filter/Filter";
 const Products = () => {
   const [loading, setLoading] = useState(true);
   const [blogs, setBlogs] = useState([]);
+  const [filteredtList, setFilteredList] = useState([]);
+  const [searchQuery, setSearchQuery] = useState("");
 
   useEffect(() => {
     setLoading(true);
     fetch("https://farhathullam.github.io/json-api/details.json")
       .then((res) => res.json())
-      .then((data) => setBlogs(data))
+      .then((data) => {
+        setBlogs(data);
+        setFilteredList(data);
+      })
       .catch((error) => console.error(error));
     setLoading(false);
   }, []);
+
+  // Function to handle search query changes
+  const handleSearch = (e) => {
+    const query = e.target.value.toLowerCase();
+    setSearchQuery(query);
+
+    // Filter the monument list based on the search query
+    const filteredList = blogs.filter((product) =>
+      product.name.toLowerCase().includes(query)
+    );
+    setFilteredList(query === "" ? blogs : filteredList);
+  };
 
   return (
     <div className="products-main">
@@ -34,6 +51,8 @@ const Products = () => {
                   placeholder="Search within category"
                   name=""
                   id=""
+                  value={searchQuery}
+                  onChange={handleSearch}
                 />
               </div>
             </div>
@@ -60,8 +79,8 @@ const Products = () => {
             "Loading..."
           ) : (
             <div className="single-products">
-              {blogs &&
-                blogs.map((item) => (
+              {filteredtList &&
+               filteredtList.map((item) => (
                   <div className="item" key={item.id}>
                     <img src={item.img} alt="" />
                     <div className="product-details">
